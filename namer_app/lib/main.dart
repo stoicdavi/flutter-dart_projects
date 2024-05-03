@@ -46,8 +46,9 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('A random AWESOMe idea:'),
+            Text('random words:'),
             BigCard(pair: pair),
+            SizedBox(height: 20),
             ElevatedButton(
               onPressed: (){
                 appState.getNext();
